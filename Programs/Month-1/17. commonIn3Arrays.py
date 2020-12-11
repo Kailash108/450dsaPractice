@@ -1,4 +1,5 @@
 # Link: https://practice.geeksforgeeks.org/problems/common-elements1132/1
+# Single Line Input Is Not Possible In This Code
 n1 = int(input("Enter the size of array-1: "))
 n2 = int(input("Enter the size of array-2: "))
 n3 = int(input("Enter the size of array-3: "))
