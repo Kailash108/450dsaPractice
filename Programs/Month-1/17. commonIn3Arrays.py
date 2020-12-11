@@ -28,11 +28,11 @@ for i in range(0, n1):
             comAB.append(A[i])
             break
 for k in range(0, n3):
-    for m in range(0, len(comAB)):
-        if(C[k] == comAB[m]):
+    for l in range(0, len(comAB)):
+        if(C[k] == comAB[l]):
             finalList.append(C[k])
 
 if(len(finalList) == 0):
     print("No Common Elements Found In 3 Lists: ")
 else:
-    print("The Common Elements In Three Lists Are: "+finalList)
+    print("The Common Elements In Three Lists Are: ", finalList)
