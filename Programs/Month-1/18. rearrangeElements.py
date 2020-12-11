@@ -1,4 +1,5 @@
 # Link: https://www.geeksforgeeks.org/rearrange-array-alternating-positive-negative-items-o1-extra-space/
+# Single Line Input Is Not Possible In This Code
 size = int(input("Enter the size of the list: "))
 list = []
 final = []
