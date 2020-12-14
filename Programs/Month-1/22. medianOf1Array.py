@@ -21,6 +21,6 @@ if(len(arr)%2 != 0):
     print("Median is:", arr[oddAns]) 
 else:
     middle1 = floor(len(arr)/2)-1
-    middle2 = middle1
+    middle2 = middle1+1
     evenAns = round((arr[middle1]+arr[middle2])/2)
     print("Median is:", evenAns)
